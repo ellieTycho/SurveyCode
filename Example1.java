@@ -1,4 +1,4 @@
-public Class Example1{
+public class Example1{
 
 private int changeState(char input, int state){
 
@@ -25,7 +25,7 @@ private int changeState(char input, int state){
 			newState = 3;		
 		}
 		else{
-			 newState = null;
+			 newState = -1;
 		}
 	}
 	else{
@@ -34,7 +34,7 @@ private int changeState(char input, int state){
 			newState = 3;
 		}
 		else{
-			newState = null;
+			newState = -1;
 		}
 	}
 	
